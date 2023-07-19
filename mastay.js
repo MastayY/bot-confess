@@ -7,7 +7,11 @@ const {
 const client = new Client({
     authStrategy: new LocalAuth({
         clientId: "mastay"
-    })
+    }),
+    puppeteer: {
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-extensions']
+    }
 });
 
 client.on('qr', qr => {
