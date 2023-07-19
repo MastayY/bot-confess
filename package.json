@@ -12,5 +12,10 @@
     "bot-menfess"
   ],
   "author": "Mastay",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lowdb": "^1.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "github:alechkos/whatsapp-web.js#forward-with-caption"
+  }
 }
