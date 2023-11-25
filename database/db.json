@@ -1,10 +1,6 @@
 {
-  "premiumUsers": [
-    "6285643094917@c.us"
-  ],
-  "botOwners": [
-    "6285643094917@c.us"
-  ],
+  "premiumUsers": [],
+  "botOwners": [],
   "rooms": [],
   "roomId": 0
 }
